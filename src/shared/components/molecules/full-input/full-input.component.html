@@ -1,0 +1,12 @@
+<div class="full-input"  >
+  <form>
+    <label [for]="fieldsKey.id" class="label">
+      {{ fieldsKey.label }}
+      <span *ngIf="fieldsKey.isRequired" class="required">*</span>
+    </label>
+    <app-input [fieldsKeys]="fieldsKey" [control]="control" ></app-input>
+    <span>
+      {{ fieldsKey.errorMessage }}
+    </span>
+  </form>
+</div>

@@ -1,0 +1,43 @@
+{
+  "signUp": {
+    "title": "Regístrate",
+    "welcome": "Bienvenido",
+    "button": "Registrarse",
+
+    "input": {
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "birthdate": "Fecha de nacimiento",
+      "password": "Contraseña"
+    },
+
+    "placeholder": {
+      "name": "Ingrese su nombre",
+      "email": "Ingrese su correo",
+      "birthdate": "Ingrese su fecha de nacimiento",
+      "password": "Ingrese su contraseña"
+    },
+
+    "error": {
+      "name": "El nombre es obligatorio",
+      "email": "El correo es obligatorio",
+      "birthdate": "La fecha de nacimiento es obligatoria",
+      "password": "La contraseña es obligatoria"
+    },
+
+    "options": {
+      "forgot-password": "Olvidé mi contraseña",
+      "already-have-account": "¿Ya tienes una cuenta?",
+      "sign-up": "Registrarse"
+    },
+
+    "errors": {
+      "required": "Este campo es obligatorio",
+      "email": "El formato del email es incorrecto",
+      "emailPattern": "Solo se permiten correos de Gmail o Hotmail",
+      "passwordPattern": "Debe contener mayúsculas, minúsculas y un carácter especial",
+      "minlength": "Debe tener al menos {{length}} caracteres",
+      "maxlength": "Debe tener máximo {{length}} caracteres"
+    }
+  }
+}

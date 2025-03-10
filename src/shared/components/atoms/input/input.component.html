@@ -1,0 +1,14 @@
+<div class="input-container">
+  <fa-icon
+    *ngIf="fieldsKeys.icon"
+    [icon]="['fas', fieldsKeys.icon]"
+    class="input-icon"
+  ></fa-icon>
+  <input
+    [id]="fieldsKeys.id"
+    [type]="fieldsKeys.type"
+    [placeholder]="fieldsKeys.placeholder"
+    [formControl]="control"
+    (blur)="control.markAsTouched()"
+  />
+</div>

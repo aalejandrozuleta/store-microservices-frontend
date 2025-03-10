@@ -1,0 +1,21 @@
+<div class="sign-up blocks">
+  <figure class="img-block">
+    <img [src]="imgSignUp" alt="signUp" />
+  </figure>
+  <div class="divider">
+    <h1 class="welcome">{{ "signUp.welcome" | translate }}</h1>
+
+    <div *ngFor="let field of fieldKeys">
+      <app-full-input 
+      [fieldsKey]="field"
+      [control]="getFormControl(field.id)">>
+       ></app-full-input>
+    </div>
+
+    <button type="submit" [disabled]="signUpFormService.form.invalid">
+      {{ "signUp.options.sign-up" | translate }}
+    </button>
+    <button>{{ "signUp.options.already-have-account" | translate }}</button>
+    <a href="/home">{{ "signUp.options.forgot-password" | translate }}</a>
+  </div>
+</div>

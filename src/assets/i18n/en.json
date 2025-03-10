@@ -1,0 +1,42 @@
+{
+  "singUp": {
+    "title": "Sign up",
+    "welcome": "welcome to",
+    "button": "Sign up",
+
+    "input": {
+      "name": "name",
+      "email": "email",
+      "birthdate": "birthdate",
+      "password": "password"
+    },
+
+    "placeholder": {
+      "name": "Add your name",
+      "email": "Add your email",
+      "birthdate": "Add your birthdate",
+      "password": "Add your password"
+    },
+
+    "error": {
+      "name": "this name is required",
+      "email": "this email is required",
+      "birthdate": "this birthdate is required",
+      "password": "this password is required"
+    },
+
+    "options": {
+      "forgot-password": "Forgot password?",
+      "already-have-account": "Already have an account?",
+      "sign-up": "Sign up"
+    },
+    "errors": {
+      "required": "field is required",
+      "email": "email format is incorrect",
+      "emailPattern": "only Gmail or Hotmail emails are allowed",
+      "passwordPattern": "must contain uppercase, lowercase and special character",
+      "minlength": "this field must be at least {{length}} characters long",
+      "maxlength": "this field must be at most {{length}} characters long"
+    }
+  }
+}

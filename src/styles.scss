@@ -1,3 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
-@import "tailwindcss";
-@import "styles/vendors/reset-style";
+@use "tailwindcss";
+@use "styles/fonts.scss";
+@use "styles/vendors/reset-style.scss";
